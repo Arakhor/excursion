@@ -1,15 +1,35 @@
+/* Global styles */
 html {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
     background-color: black;
     text-align: center;
 }
 
-header h1 {
+h1 {
     font-size: 3.125em;
-    color: white;
     font-weight: normal;
 }
 
-header a {
+h2 {
+    font-size: 2.625em;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 1.3125em;
+    color: gray;
+    font-weight: normal;
+}
+
+a {
     color: aquamarine;
+}
+
+.section {
+    margin-top: 1rem;
+}
+
+footer {
+    text-align: right;
 }
